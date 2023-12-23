@@ -1,0 +1,98 @@
+.post {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+.postWrapper {
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+	background: #fff;
+	margin-top: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 17px -8px rgba(0, 0, 0, 0.67);
+	box-shadow: 0px 0px 17px -8px rgba(0, 0, 0, 0.67);
+	margin-bottom: 20px;
+}
+.postTop {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.postTopLeft {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.post--header--left {
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+}
+.post--header--left--item {
+	display: flex;
+	align-items: flex-end;
+}
+.postUsername {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 10px;
+	display: block;
+}
+.hasGroup {
+	font-size: 12px !important;
+	font-weight: lighter !important;
+	color: #65676b !important;
+}
+
+.postDateShare,
+.postDate {
+	margin-top: 4px;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #65676b;
+	display: block;
+}
+.postPrivacyLevel {
+	font-size: 12px;
+	font-weight: bold;
+	color: #5699f0;
+	margin-left: 16px;
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.postCenter {
+	margin: 20px 0;
+}
+.postText {
+	margin-left: 10px;
+	max-width: 630px;
+	display: inline-block;
+	overflow-wrap: break-word;
+}
+
+.postImg {
+	margin-top: 20px;
+	width: 100%;
+	max-height: 500px;
+	object-fit: contain;
+}
+.postFile {
+	display: flex;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #d8e0ed;
+	height: 70px;
+	border-radius: 4px;
+}
+.postProfileImg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	cursor: pointer;
+}

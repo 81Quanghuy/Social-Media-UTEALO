@@ -1,0 +1,279 @@
+.menu--post .container--group {
+	background-color: #e9eaf4;
+}
+
+.menu--post .feed {
+	flex: 5.22;
+	margin-left: 5px;
+}
+.menu--post .feedWrapper {
+	padding: 20px;
+}
+
+/* .menu--post .post {
+	background: #ffffff;
+}
+
+.menu--post .share {
+	background: #ffffff;
+} */
+.menu--post .header--group {
+	border-bottom: solid #ccc 1px;
+}
+.menu--post .group--contanier--top {
+	display: flex;
+	min-height: 120px;
+	align-items: center;
+	margin-left: 30%;
+	justify-content: space-between;
+	margin-right: 6%;
+}
+
+.menu--post .group--detail {
+	width: 320px;
+}
+
+.menu--post .group--name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.group--name-info {
+	margin-top: 16px;
+	display: flex;
+}
+
+.group--member {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 4px;
+}
+
+.group--public {
+	margin-left: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.list--feature--group {
+	display: flex;
+	margin: 0px 12px;
+	width: 100%;
+}
+
+.list-feature {
+	height: 60px;
+	display: flex;
+}
+
+.list-feature li {
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: 600;
+	color: #333;
+	cursor: pointer;
+	font-size: 15px;
+	color: #65676b;
+	margin: auto;
+	padding: 0px 16px;
+}
+
+.list-feature li:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.group--button-add {
+	background-color: #1877f2;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	height: 32px;
+	width: 64px;
+}
+
+.group--button-more {
+	background-color: #e4e6eb;
+	border: none;
+	border-radius: 5px;
+	color: #706565;
+	font-size: 15px;
+	height: 33px;
+	width: 42px;
+	margin-left: 10px;
+}
+
+.group--button-joined-icon {
+	font-size: 15px;
+	padding-left: 4px;
+}
+
+.container--search--group {
+	display: flex;
+}
+
+.container--search--group-icon {
+	font-weight: 600;
+	padding: 8px 10px;
+	background: #e4e6eb;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-right: 10px;
+	height: 37px;
+}
+
+.container--search--group-more {
+	font-weight: 600;
+	padding: 8px 10px;
+	background: #e4e6eb;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-right: 10px;
+	height: 37px;
+}
+
+.groupUserImg {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: -25%;
+	left: 12%;
+}
+
+.menu--post {
+	flex: 5.5 1;
+	overflow: hidden;
+}
+
+.container--group {
+	display: flex;
+}
+
+.rightbar--group {
+	flex: 4;
+	margin-top: -31px;
+	margin-left: -5px;
+}
+
+.group--infor {
+	height: 404px;
+	background: #ffffff;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1), 0px -3px 5px rgba(0, 0, 0, 0.1), 3px 0px 5px rgba(0, 0, 0, 0.1),
+		-3px 0px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 7px;
+	margin-top: 52px;
+}
+
+.menu--post .group--infor-introduce {
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 15px;
+	padding-left: 8px;
+	margin: auto;
+	margin-left: 6px;
+}
+
+.group--infor-bio {
+	margin-left: 16px;
+	margin-top: 12px;
+	margin-right: 22px;
+}
+
+.group--infor-bio span {
+	font-size: 14px;
+}
+
+.group--infor-public,
+.group--infor-show,
+.group--infor-location {
+	margin-left: 14px;
+	margin-top: 14px;
+	display: flex;
+}
+
+.group--public,
+.group--show,
+.group--location {
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 6px;
+	margin-top: 2px;
+}
+
+.group--public-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 4px;
+	margin-right: 20px;
+}
+
+.group--infor-public-text,
+.group--infor-show-text {
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.group--infor-public-text span,
+.group--infor-show-text span {
+	font-size: 14px;
+}
+
+.group--infor-more {
+	background: #e4e6eb;
+	padding: 0 12px;
+	height: 36px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 20px 10px 0px 10px;
+	cursor: pointer;
+}
+
+.group--file {
+	margin-top: 25px;
+	height: 360px;
+	background: #ffffff;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1), 0px -3px 5px rgba(0, 0, 0, 0.1), 3px 0px 5px rgba(0, 0, 0, 0.1),
+		-3px 0px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.group--file-text {
+	display: flex;
+}
+
+.file--photos {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr); /* Sử dụng 2 hàng */
+	margin-top: 4px;
+	gap: 8px; /* Khoảng cách giữa các ảnh */
+	width: 96%;
+	height: 86%; /* Chiều cao tự động thay vì cố định 88% */
+	padding: 8px 8px;
+	margin: auto;
+	margin-top: 4px;
+}
+
+.filePhotoItem {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.filePhotoItem img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

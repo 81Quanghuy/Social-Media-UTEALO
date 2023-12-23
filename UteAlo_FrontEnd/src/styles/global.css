@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif !important;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--animate-duration: 0.5s !important;
+}
+
+body {
+	overflow: hidden auto;
+}
+
+/* Common */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+/* Disable space in MUI Input */
+fieldset > legend {
+	width: 0;
+}
