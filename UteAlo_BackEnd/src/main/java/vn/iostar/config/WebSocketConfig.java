@@ -11,7 +11,8 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
-		registry.addEndpoint("/ws").setAllowedOriginPatterns("http://localhost:3000", "http://localhost:3001")
+		registry.addEndpoint("/ws")
+				.setAllowedOriginPatterns("https://social-media-utealo.vercel.app", "https://system-utealo.vercel.app")
 				.withSockJS();
 	}
 

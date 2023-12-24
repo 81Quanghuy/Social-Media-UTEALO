@@ -36,7 +36,7 @@
 		"test": "craco --openssl-legacy-provider test",
 		"eject": "react-scripts eject"
 	},
-	"proxy": "http://localhost:8089",
+	"proxy": "https://socialmediautealo-production.up.railway.app",
 	"browserslist": {
 		"production": [
 			">0.2%",

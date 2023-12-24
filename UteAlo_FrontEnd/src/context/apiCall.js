@@ -1,2 +1,2 @@
 
-export const BASE_URL = "http://localhost:8089/api";
+export const BASE_URL = "https://socialmediautealo-production.up.railway.app/api";
